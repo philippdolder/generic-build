@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <id>philippdolder.Development.ProductionCode</id>
+    <id>philippdolder.Development.Analyzers</id>
     <version>0.0.0</version>
     <authors>Philipp Dolder</authors>
     <owners>Philipp Dolder</owners>
@@ -10,9 +10,7 @@
     <copyright>Copyright 2014-2016</copyright>
     <developmentDependency>true</developmentDependency>
     <dependencies>
-      <dependency id="philippdolder.Development" />
-      <dependency id="philippdolder.Development.Analyzers" />
-      <dependency id="Appccelerate.CheckNugetDependenciesTask" />
-    </dependencies>	
+      <dependency id="StyleCop.Analyzers" />
+	</dependencies>	
   </metadata>
 </package>
